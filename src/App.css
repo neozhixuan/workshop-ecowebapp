@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  padding: 2%;
+}
+
+.form-box {
+  background-color: #f6f5f3;
+  width: 30%;
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 35%;
+}
+
+.app-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.posts-container {
+  margin-top: 2%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #f6f5f3;
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.post-title {
+  font-weight: 500;
+  align-self: flex-start;
+}
+
+.post-description {
+  align-self: flex-start;
+}
+
+.post-image {
+  width: 200px;
+  height: 200px;
+  align-self: center;
+  border: 1px solid #282c34;
+  object-fit: contain;
+}
